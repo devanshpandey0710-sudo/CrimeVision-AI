@@ -1,0 +1,19 @@
+# CrimeVision AI core runtime dependencies
+# Python 3.11–3.14; Windows/Linux/macOS. CPU operation is supported.
+# Optional neural models and Groq are listed in requirements-ai.txt.
+# Test tools are listed in requirements-test.txt.
+
+# Flask REST application
+Flask>=3.0.3
+Flask-CORS>=4.0.1
+Werkzeug>=3.0.6
+python-dotenv>=1.0.1
+
+# Image, video, audio file handling and processing
+opencv-python>=4.10.0.84
+Pillow>=10.4.0
+numpy>=1.26.4,<3.0
+soundfile>=0.12.1
+
+# PDF reports
+reportlab>=4.2.5

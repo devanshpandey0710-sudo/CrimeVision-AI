@@ -1,0 +1,9 @@
+# Optional integrations for neural analysis and cloud language-model features.
+# Install a CPU-compatible PyTorch build first (see README.md).
+# Model weights are local-only by default. Set ALLOW_MODEL_DOWNLOADS=1 only
+# after explicitly approving a model download; weights may be large.
+
+transformers>=4.44.2
+openai-whisper>=20240930
+scipy>=1.11
+groq>=0.11.0

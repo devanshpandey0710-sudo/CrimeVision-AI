@@ -1,0 +1,81 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+venv.bak/
+
+# ── Environment files ─────────────────────────────────────────────────────────
+.env
+# (keep .env.example – it has placeholder values only)
+
+# ── IDE / Editor ──────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Uploads (forensic evidence – never commit) ────────────────────────────────
+uploads/*
+!uploads/.gitkeep
+src/uploads/*
+!src/uploads/.gitkeep
+
+# ── Generated reports ─────────────────────────────────────────────────────────
+reports/*
+!reports/.gitkeep
+src/reports/*
+!src/reports/.gitkeep
+
+# ── Session / case data ───────────────────────────────────────────────────────
+data/*
+!data/.gitkeep
+src/data/*
+!src/data/.gitkeep
+
+# ── AI model weights ──────────────────────────────────────────────────────────
+# Hugging Face cache (can be many GB)
+.cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ── Test artefacts ────────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Scratch / Local Temporary ─────────────────────────────────────────────────
+scratch/
+.audit-*/
